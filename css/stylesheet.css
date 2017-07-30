@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Nobile');
+
+*{box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+body{
+  font-family: 'Nobile', sans-serif;;
+  font-size:24px;
+  background-color: #96E072;
+  background-repeat: no-repeat;
+}
+
+.banner{
+  height: 250px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  color: #000;
+  background-size: cover;
+ 
+}
+
+.index-banner{
+  background-image: 
+  linear-gradient(
+      rgba(255, 255, 255, 0.2), 
+      rgba(255, 255, 255, .3)
+    ),url(../images/bear.jpeg);
+  background-size:cover;
+  background-position: center;
+  }
+  .fade-in {
+   animation: 1,3s fade-in;
+ }
+ 
+ @keyframes fade-in {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+ }
+.about-banner{
+  background-image: 
+     linear-gradient(
+      rgba(255, 255, 255, 0.2), 
+      rgba(255, 255, 255, 9)
+    ),url(../bear.jpeg);
+}
+
+nav ul{
+  display:flex;
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+nav li{
+  width: 33.33%;
+  text-align: center;
+  border-left: 2px solid #000;
+}
+
+nav li:first-child{
+  border-left:none;
+}
+
+nav a{
+  text-decoration: none;
+  color: #000;
+  padding: 5px;
+  transition: .25s;
+}
+
+nav a:hover{
+  color:#b71e03;
+ 
+ }
+
+ .typing {
+    width: 510px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #7E2EA0;
+    animation: typing 2s steps(25, end), cursor .2s steps(25, end) infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+}
+@keyframes cursor {
+    50% { border-color: transparent }
+}
+ 
+ .home_page{ 
+   text-align:center;
+   
+ }
+ 
+ .hpbear{
+  margin: auto;
+  width: 20%;
+  border: 2px solid #000;
+  align-content: center;
+  display:block;
+  border-radius: 50%;
+  border-radius: 50%;
+}
+
+
+.main-content-header{
+  text-align: center;
+  font-size: 1.7rem;
+  margin: 2rem 0;
+  
+ } 
+ 
+ .blackbear{
+  background-image: 
+  linear-gradient(
+      rgba(255, 255, 255, 0.1), 
+      rgba(255, 255, 255, .4)
+    ),url(../images/blackbear.jpg);
+  background-size:100% 140%; 
+  background-size:cover;
+  background-position: 0% 60%;
+  background-repeat: no-repeat;
+ }
+ 
+ .fade-in {
+   animation: 1,3s fade-in;
+ }
+ 
+ @keyframes fade-in {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+ }
+ 
+ .black-bears{
+   text-align: center;
+ }
+ 
+ .nab{
+   border-style: solid;
+   border-width: 2px;
+   border-color:#000;
+ }
+ 
+ .bear-img{
+  margin: auto;
+  width: 20%;
+  border: 2px solid #000;
+  align-content: center;
+  display:block;
+  border-radius: 50%;
+  border-radius: 50%;
+}
+
+ 
+ .grizzly_bear{
+  background-image: 
+  linear-gradient(
+      rgba(255, 255, 255, 0.1), 
+      rgba(255, 255, 255, .4)
+    ),url(../images/grizzly2.jpg);
+  background-size:100% 140%;
+  background-size:cover;
+  background-position: 00% 50%;
+  background-repeat: no-repeat;
+ }
+ .fade-in {
+   animation: 1,3s fade-in;
+ }
+ 
+ @keyframes fade-in {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+ }
+.mp3{
+  text-align: center;
+ }
+
+.mp3 img{
+  margin: auto;
+  width: 20%;
+  border: 2px solid #000;
+  align-content: center;
+  display:block;
+  border-radius: 50%;
+  border-radius: 50%;
+}
+  
+
+ .polar_bears{     
+   background-image: 
+  linear-gradient(
+      rgba(255, 255, 255, 0.1), 
+      rgba(255, 255, 255, .4)
+    ),url(../images/polarbear2.jpg);
+  background-size: 100% 140%;
+  background-size: cover;
+  background-position: 00% 31%;
+  background-repeat:no-repeat;
+  }
+  .fade-in {
+   animation: 1,3s fade-in;
+ }
+ 
+ @keyframes fade-in {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+ }
+.polar_bears{
+  text-align: justify;
+  font-size: 20px;
+
+}
+
+
+  .polarface1{
+  margin: auto;
+  width: 20%;
+  border: 2px solid #000;
+  align-content: center;
+  display:block;
+  border-radius: 50%;
+  
+}
+/*This code aligns the audio file to center*/
+.polar1{
+  text-align: center;
+}
+
+footer{
+  margin-top: 1rem;
+}
+
+footer p{
+  font-size: .8rem;
+  text-align: center;
+  color: #777;
+}
+
